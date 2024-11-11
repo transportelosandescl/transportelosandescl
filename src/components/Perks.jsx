@@ -1,7 +1,7 @@
 import Image from "next/image";
 import LineSeparator from "../../public/LineSeparator.svg";
 import { perksHome } from "../mocks/perksHome";
-import { perksEnvio } from "../mocks/perksEnvio";
+import { perksEnvio } from "../mocks/perkSEnvio";
 import { usePathname } from "next/navigation";
 import basket from "../../public/basket-svgrepo-com.svg";
 import check from "../../public/check-mark-svgrepo-com.svg";
