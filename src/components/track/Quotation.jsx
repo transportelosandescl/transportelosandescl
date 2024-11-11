@@ -8,7 +8,7 @@ import loadingIcon from "../../../public/LoadingGif.gif"; // Asegúrate de que l
 import Aos from "aos";
 import "aos/dist/aos.css";
 
-const QuotationForm = () => {
+const Quotation = () => {
   const [formData, setFormData] = useState({
     firstName: "",
     lastName: "",
@@ -493,4 +493,4 @@ const QuotationForm = () => {
   );
 };
 
-export default QuotationForm;
+export default Quotation;
