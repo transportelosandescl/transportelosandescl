@@ -1,7 +1,7 @@
 /* "use client";
 
 import { TLAIcon } from "@/components/icons";
-import FloatingWhatsAppButton from "@/components/Track/FloatingWhatsAppButtom";
+import FloatingWhatsAppButton from "@/components/track/FloatingWhatsAppButtom";
 import { Box, Button, Modal, Typography } from "@mui/material";
 import { useState } from "react";
 
@@ -103,14 +103,14 @@ import Perks from "@/components/Perks";
 import NavBar from "@/components/NavBar";
 import AccordionSection from "@/components/AccordionSection";
 import CallToAction from "@/components/CallToAction";
-import WhatTheySay from "@/components/Track/WhatTheySay";
+import WhatTheySay from "@/components/track/WhatTheySay";
 import Footer from "@/components/Footer";
 import { accordionTrack } from "@/mocks/accordionSectionTrack";
 import { accordionFAQTrack } from "@/mocks/accordionFAQTrack";
 import { CTATrack } from "@/mocks/CTATrack";
 import { HeroTrack } from "@/mocks/HeroTrack";
-import Quotation from "@/components/Track/Quotation";
-import FloatingWhatsAppButton from "@/components/Track/FloatingWhatsAppButtom";
+import Quotation from "@/components/track/Quotation";
+import FloatingWhatsAppButton from "@/components/track/FloatingWhatsAppButtom";
 
 export default function Home() {
   const refComponent = useRef<HTMLDivElement | null>(null);

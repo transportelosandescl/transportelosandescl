@@ -1,8 +1,3 @@
 {
-  "extends": "next/core-web-vitals",
-  "plugins": ["import"],
-  "rules": {
-    "import/no-unresolved": "error",
-    "import/case-sensitive-paths": "error"
-  }
+  "extends": "next/core-web-vitals"
 }

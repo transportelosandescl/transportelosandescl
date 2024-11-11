@@ -83,7 +83,7 @@ export default function CallToAction({
           </h1>
         )}
 
-        {/* MAIN TITLE HERO Track */}
+        {/* MAIN TITLE HERO track */}
         {section === "HeroTrack" && (
           <div
             data-aos="fade-right"
@@ -110,7 +110,7 @@ export default function CallToAction({
           </div>
         )}
 
-        {/* MAIN TITLE Track CTA*/}
+        {/* MAIN TITLE track CTA*/}
         {section === "CTATrack" && (
           <div
             data-aos="fade-right"
