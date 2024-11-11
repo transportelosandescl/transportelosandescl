@@ -13,8 +13,8 @@ RUN npm install
 # Copy the rest of the application files
 COPY . .
 
-# Build the application with static export
-RUN npm run build && npm run export
+# Build the application with static export enabled by next.config.js
+RUN npm run build
 
 # Start a lightweight server for testing or development (optional)
 # Alternatively, this container could just output the static files for external NGINX to serve.
